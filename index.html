@@ -4,35 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
 
     <style>
-      .acc {
-        background-color: brown; 
-      }
-
-      .acc1 {
-        background-color: blue; 
+      table,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 10px;
       }
     </style>
   </head>
-  <body style="background-color: darkgrey">
+  <body style="background-color: darkgrey" , bor>
     <script src="index.js"></script>
 
-    <a href="https://www.guvi.in/" target="_blank">Full stack website</a>
-    <a href="https://www.guvi.in/" target="_blank">Full stack website</a>
-   
-    ><br /><br />
+    <table>
+      <thead>
+        <th colspan="0">State of health</th>
+        <th colspan="2">Fasting Value</th>
+        <th>After Remaining</th>
+      </thead>
 
-    <div class="acc">1</div>
-    <div class="acc1">2</div>
-    <div class="acc1 acc">3</div>
+      <tbody>
+        <tr>
+          <th></th>
+          <th>Minimum</th>
+          <th>Normal</th>
+          <th>2 hours of Eating</th>
+        </tr>
+        <tr>
+          <td>healthy</td>
+          <td>70</td>
+          <td>100</td>
+          <td>Less than 140</td>
+        </tr>
 
-    <form>
-      <label for="email">Email</label>
-      <input type="email" name="em" id="email" required /><br /><br />
-      <label for="password">Password</label>
-      <input type="password" name="pass" id="password" /><br /><br />
-      <input type="submit" />
-    </form>
+        <tr>
+          <td>Pre-Diabetes</td>
+          <td>101</td>
+          <td>126</td>
+          <td>140 to 200</td>
+        </tr>
+
+        <tr>
+          <td>Diabetes</td>
+          <td>More than 126</td>
+          <td>Not Applicable</td>
+          <td>More than 200</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>

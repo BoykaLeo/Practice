@@ -17,7 +17,7 @@ request.onload = function () {
 
   
 };
-res.map((ele)=>ele.population); 
+res.map((ele)=>ele.population);          
 var arr = [3, "q", "q", "q", 2, 3, "q", 3, "q", 2, 4, 9, 3];
 
 
