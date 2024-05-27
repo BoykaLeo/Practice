@@ -4,24 +4,21 @@ request.open("GET", "https://restcountries.com/v2/all");
 
 request.send();
 
-request.onload = function () { 
+request.onload = function () {
   var res = JSON.parse(request.response);
 
-  console.log(res);  
+  console.log(res);
 
-  var sum = [1, 2, 3];   
+  var sum = [1, 2, 3];
 
-  var pop = res.reduce((a, b) => a + b.population, 0);  
+  var pop = res.reduce((a, b) => a + b.population, 0);
 
-  console.log(pop);   
-
-  
+  console.log(pop);
 };
-res.map((ele)=>ele.population);          
+res.map((ele) => ele.population);
 var arr = [3, "q", "q", "q", 2, 3, "q", 3, "q", 2, 4, 9, 3];
 
-
-var min = 1; 
+var min = 1;
 
 var count = 1;
 
@@ -66,7 +63,7 @@ console.log(element);
 
 // res = [];
 
-// for (let i = 0; i < arr.length; i++) { 
+// for (let i = 0; i < arr.length; i++) {
 //   a = arr[i] * 2;
 //   res.push(a);
 // }
@@ -82,18 +79,13 @@ console.log(element);
 
 // console.log(name,place,age);
 
-let arr = [1, 2, 3, 4, 5]; 
+let arr = [1, 2, 3, 4, 5];
 
 // var sum = arr.reduce((a, b) => a + b );
 // console.log(sum);
 
 // arr.forEach((element) => console.log(element));
 
+let res = arr.reduce((ele) => ele % 2 == 0);
 
-let res = arr.reduce((ele)=> ele%2==0 );
-
-console.log(res)
-
-
-
-
+console.log(res);

@@ -1,8 +1,22 @@
 
-span{
- background-color: aqua !important;
+.parent{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: center;
+background-color: rgb(234, 255, 0);
+height: 100px; 
+position: absolute;
+
 }
 
-.acc1 {
-  background-color: blue; 
+.parent>div{
+    border: 3px;
+    border-style: groove;
+    background-color: aqua;
+    margin : 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
 }
