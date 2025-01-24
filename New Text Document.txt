@@ -1,0 +1,56 @@
+let a = userInput;
+
+let originalarr =[];
+
+
+
+for(var i=1; i<a.length; i++){
+    
+    originalarr.push(a[i]);
+    
+}
+
+
+console.log(originalarr)
+
+let arr1 =originalarr[0];
+let arr2 =originalarr[1];
+let arr3 =originalarr[2];
+
+
+let combinedArray = [arr1+" "+arr2+" "+arr3];
+
+let input = combinedArray.join();
+
+let  input1 = input.split(" ").sort();
+
+let result1 = [];
+
+let result2 = [];
+let result3 = [];
+
+let count = 0 ; 
+
+for(var k=0 ; k<parseInt(input1.length) ; k++){
+    
+    count++;
+    
+    if(count<= 3){ 
+        
+        result1.push(input1[k]);
+        
+    }
+    else if(count<= 6 && count >3 ){ 
+        
+        result2.push(input1[k]);
+        
+    }else{
+        
+        result3.push(input1[k]);
+    }
+    
+}
+
+console.log(`${result1.join(" ")} 
+${result2.join(" ")}
+${result3.join(" ")}`)
