@@ -1,26 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <style>
-        .color-box {
-            width: 150px;
-            height: 150px;
-            background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
-            border: 2px solid black;
-            border-radius: 10px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-        }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <script src="index.js"></script>
 
+    <table>
+      <thead>
+        <th>State of Health</th>
+        <th colspan="2">Fasting value</th>
+        <th>After Remaining</th>
+      </thead>
 
-
-<div class="color-box"></div>
-
-</body>
+      <tbody>
+        <tr>
+          <th></th>
+          <th>Minimum</th>
+          <th>Normal</th>
+          <th>2 hours of Eating</th>
+        </tr>
+        <tr>
+          <td>Healthy</td>
+          <td>70</td>
+          <td>100</td>
+          <td>Less than 140</td>
+        </tr>
+        <tr>
+          <td>Pre Diabetes</td>
+          <td>101</td>
+          <td>126</td>
+          <td>140 to 200</td>
+        </tr>
+        <tr>
+          <td>Diabetes</td>
+          <td>More than 126</td>
+          <td>Not Applicable</td>
+          <td>More than 200</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
