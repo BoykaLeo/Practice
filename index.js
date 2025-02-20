@@ -14,10 +14,7 @@ request.onload = function () {
 
   console.log(res1)
   
-
-
-
-
+  
 };
 
 
