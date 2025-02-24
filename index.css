@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: lightgrey;
 }
 
@@ -34,4 +34,33 @@ margin: 20px 0px;
 a{
 
     border-bottom: 2px solid #009bff;
+} */
+
+body {
+  background-color: rgb(70, 69, 69);
+ 
 }
+
+.smallbox {
+  background-color: rgb(245, 150, 7);
+  text-align: center;
+  color: white;
+  padding: 100px 100px;
+}
+
+
+.smallbox1 {
+  background-color: rgb(24, 154, 225);
+  color: white;
+  text-align: center;
+  padding: 100px 100px;
+}
+
+.secondbox{
+ 
+  padding-top: 50px;
+
+
+}
+
+
