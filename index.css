@@ -8,7 +8,6 @@
              
 }
 
-
 .smallbox{
 
     background-color: white;
@@ -36,31 +35,36 @@ a{
     border-bottom: 2px solid #009bff;
 } */
 
-body {
+/* body {
   background-color: rgb(70, 69, 69);
- 
+  
 }
 
 .smallbox {
   background-color: rgb(245, 150, 7);
   text-align: center;
-  color: white;
+  color: white; 
   padding: 100px 100px;
+  max-width: 100%;  
+  display: flex; 
+  flex-wrap: wrap;  
 }
 
+.logo {
+  border-radius: 50%;
+  border: 3px solid #fff;                                           
+  padding: 15px;
+  background-color: aqua;
+}
 
 .smallbox1 {
   background-color: rgb(24, 154, 225);
   color: white;
   text-align: center;
   padding: 100px 100px;
-}
-
-.secondbox{
+  max-width: 100%;
  
-  padding-top: 50px;
+} */
 
-
-}
 
 
